@@ -1,0 +1,14 @@
+.bar {
+    background-color: red;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.links a {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
