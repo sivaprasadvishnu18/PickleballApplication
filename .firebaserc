@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "test-app-5a641": {
+      "hosting": {
+        "my-angular-app": [
+          "test-app-5a641"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "test-app-5a641"
+  }
+}

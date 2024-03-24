@@ -25,6 +25,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/custom-theme.scss",
               "src/styles.css"
             ],
             "scripts": [],
@@ -93,6 +94,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "my-angular-app:build:production",
+              "serveTarget": "my-angular-app:serve:production"
+            },
+            "development": {
+              "buildTarget": "my-angular-app:build:development",
+              "serveTarget": "my-angular-app:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }
